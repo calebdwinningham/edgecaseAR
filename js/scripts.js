@@ -126,6 +126,7 @@ function navToMobile(destination) {
     science.style.display = "none";
     games.style.display = "none";
     sports.style.display = "none";
+    subscribe.style.display = "none";
     mobileMenu("reset");
   } else if (destination === "science") {
     homescreen.style.display = "block";
